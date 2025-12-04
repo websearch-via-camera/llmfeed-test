@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate LLMFeed
-        uses: kiarashplusplus/webmcp-tooling-suite/packages/github-action@v1.0.0
+        uses: kiarashplusplus/webmcp-tooling-suite/packages/github-action@main
         with:
           feed: '.well-known/mcp.llmfeed.json'
           skip-signature: 'true'
