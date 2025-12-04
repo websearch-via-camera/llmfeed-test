@@ -1,9 +1,9 @@
 name: Validate LLMFeed
 on:
   push:
-    paths: ['**/*.llmfeed.json']
+    paths: ['**/*.llmfeed.json', '.github/workflows/*.yml']
   pull_request:
-    paths: ['**/*.llmfeed.json']
+    paths: ['**/*.llmfeed.json', '.github/workflows/*.yml']
 jobs:
   validate:
     runs-on: ubuntu-latest
