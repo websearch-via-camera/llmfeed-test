@@ -1,21 +1,23 @@
 {
-  "feed_type": "mcp",
-  "metadata": {
-    "title": "Test Feed",
-    "description": "A test LLMFeed for validating the GitHub Action",
-    "version": "1.0.0"
-  },
-  "capabilities": [
-    {
-      "name": "hello",
-      "description": "A simple hello world capability",
-      "inputSchema": {
-        "type": "object",
-        "properties": {
-          "name": { "type": "string" }
+    "feed_type": "mcp",
+    "metadata": {
+        "title": "Test Feed",
+        "description": "A test LLMFeed for validating the GitHub Action",
+        "version": "1.0.0",
+        "origin": "https://github.com/websearch-via-camera/llmfeed-test"
+    },
+    "capabilities": [
+        {
+            "name": "hello",
+            "description": "A simple hello world capability",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    }
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }
-
